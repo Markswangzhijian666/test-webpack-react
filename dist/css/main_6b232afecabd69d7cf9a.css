@@ -1,0 +1,12 @@
+body #root {
+  background-color: cadetblue;
+  width: 100%;
+}
+
+#root {
+  background-color: chartreuse;
+}
+.con2 {
+  color: greenyellow;
+}
+

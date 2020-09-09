@@ -1,0 +1,10 @@
+.con2 {
+  color: greenyellow;
+  cursor: pointer;
+}
+img{
+    transition: all 0.3s;
+}
+img:hover{
+    margin-left: 20px;
+}

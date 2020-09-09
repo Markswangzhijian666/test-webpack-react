@@ -1,0 +1,102 @@
+@import '../../css/var.less';
+
+.btn{
+    color:@white;
+    outline: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    padding: 4px 15px;
+    font-size: 14px;
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+    height: 32px;
+
+    background-color: @transparent;
+    border-color: @black;
+    color:@black;
+}
+
+
+.btn-ml {
+    height: 32px;
+}
+.btn-lg {
+    height: 40px;
+    padding: 6.4px 15px;
+    font-size: 16px;
+}
+.btn-sm {
+    height: 24px;
+    padding: 2.5px 15px;
+    font-size: 12px;
+}
+
+
+.btn-primary{
+    background-color: @blue;
+    color:@white;
+    border-color: @blue;
+}
+.btn-primary:hover{
+    background-color:@blueHover;
+    color:@white;
+    border-color: @blueHover;
+}
+
+
+.btn-danger{
+    background-color: @red;
+    color:@white;
+    border-color:  @red;
+}
+.btn-danger:hover{
+    background-color: @redHover;
+    color:@white;
+    border-color: @redHover;
+}
+
+
+.btn-dashed{
+    background-color: @transparent;
+    color:@black;
+    border-color:  @black;
+    border-style: dashed;
+}
+.btn-dashed:hover{
+    color:@blue;
+    border-color: @blue;
+    border-style: dashed;
+}
+
+
+.btn-text{
+    border-color: @transparent;
+    background-color: @transparent;
+    color: @black;
+}
+.btn-text:hover{
+    border-color: @transparent;
+    background-color: @fa;
+    color: @black;
+}
+
+
+.btn-link,.btn-link:hover{
+    border-color: @transparent;
+    background-color: @transparent;
+    color: @blue;
+}
+
+.btn-disabled,.btn-disabled:hover{
+    cursor: not-allowed;
+    color: @c8;
+    background-color: @f5;
+    border-color: @d9;
+}
