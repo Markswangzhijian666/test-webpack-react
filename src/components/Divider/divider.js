@@ -44,4 +44,4 @@ Divider.propTypes = {
   style:PropTypes.object
 };
 
-export default Divider;
+export default Divider; 
